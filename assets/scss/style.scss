@@ -1,0 +1,135 @@
+@import "bootstrap-custom";
+
+
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+//utility
+.w-100px {
+    width: 100px;
+}
+.w-130px {
+    width: 130px;
+}
+.w-200px {
+    width: 200px;
+}
+
+.h-130px {
+    height: 130px;
+}
+
+.stack-1 {
+    z-index: 1;
+}
+.stack-2 {
+    z-index: 2;
+}
+.stack-3 {
+    z-index: 3;
+}
+
+.text-xxs {
+    font-size: 0.625rem;
+}
+.text-xs {
+    font-size: 0.75rem;
+}
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.lh-xs {
+    line-height: 1.2;
+}
+.lh-sm {
+    line-height: 1.5;
+}
+.lh-md {
+    line-height: 1.8;
+}
+.lh-lg {
+    line-height: 2;
+}
+.lh-xl {
+    line-height: 2.5;
+}
+
+.bg-success-lighten {
+    background-color: $success-lighten;
+}
+.bg-info-lighten {
+    background-color: $info-lighten;
+}
+.bg-warning-lighten {
+    background-color: $warning-lighten;
+}
+.bg-danger-lighten {
+    background-color: $danger-lighten;
+}
+
+// badge
+.badge.badge-outlined {
+    background-color: transparent;
+    border: solid 1px transparent;
+
+    &.badge-primary {
+        border-color: $primary;
+        color: $primary;
+    }
+    &.badge-secondary {
+      border-color: $secondary;
+      color: $secondary;
+    }
+    &.badge-success {
+        border-color: $success;
+        color: $success;
+    }
+    &.badge-warning {
+        border-color: $warning;
+        color: $warning;
+    }
+    &.badge-info {
+        border-color: $info;
+        color: $info;
+    }
+    &.badge-danger {
+        border-color: $danger;
+        color: $danger;
+    }
+}
+
+
+
+// header
+.navbar-brand img {
+    width: 166px;
+
+    @include media-breakpoint-up(md) {
+        width: 220px;
+    }
+}
+
+// accordion
+.accordion-title {
+    cursor: pointer;
+    position: relative;
+    user-select: none;
+
+    &:after {
+        font-family: FontAwesome;
+        content: "\f067";
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        color: $secondary;
+    }
+    &[aria-expanded="true"]:after {
+        content: "\f068";
+        font-family: FontAwesome;
+        color: $secondary;
+    }
+}

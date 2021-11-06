@@ -6,7 +6,60 @@
  */
 
 
-$primary:       red;
+ $secondary:     #dbdbdb;
+ $success:       #f1949d;
+ $info:          #74be10;
+ $warning:       #F8B640;
+ $danger:        #eb644a;
+ $light:         #F4F6F6;
+ $dark:          #595757;
+
+$success-lighten: #ffecee;
+$info-lighten: #f5ffe9;
+$warning-lighten: #fff9ed;
+$danger-lighten: #fbdddb;
+
+
+ $navbar-padding-y:                  1rem;
+ $navbar-nav-link-padding-x:         1rem;
+
+ $navbar-light-color:                #333;
+ $navbar-light-hover-color:          $danger;
+
+
+ $display1-size:               4rem;
+ $display2-size:               3rem;
+ $display3-size:               2.5rem;
+ $display4-size:               2rem;
+ $display-line-height:         1.6;
+
+ $enable-responsive-font-sizes:                true;
+ $link-hover-decoration:                   none;
+ $headings-font-weight:        bold;
+
+ $spacer: 1rem;
+ $spacers: ();
+ $spacers: map-merge(
+   (
+     0: 0,
+     1: ($spacer * .25),
+     2: ($spacer * .5),
+     3: $spacer,
+     4: ($spacer * 1.5),
+     5: ($spacer * 2),
+     6: ($spacer * 3),
+     7: ($spacer * 4),
+     8: ($spacer * 5),
+     9: ($spacer * 6),
+     10: ($spacer * 7)
+   ),
+   $spacers
+ );
+
+ $badge-font-size:                   0.75rem;
+ $badge-padding-y:                   .5em;
+ $badge-padding-x:                   1em;
+ $badge-border-radius:               50rem;
 
 
 @import "functions";

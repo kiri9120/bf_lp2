@@ -6,10 +6,391 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Fizzy</title>
     <link rel="stylesheet" href="./css/bootstrap-custom.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
     <div class="wrapper">
-        <p class="bg-primary">あああ</p>
-    </div>
-</body>
+        <header class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/bf-logo.png" class="" alt="Beauty Fizzy ロゴ">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#concept">CONCEPT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ec">ONLINE STORE</a>
+                </li>
+              </ul>
+            </nav>
+        </header>
+        <main class="site-main">
+            <div class="">
+                <img src="./assets/images/kv-pc.jpg" class="w-100 d-none d-md-block" alt="Beauty Fizzy キービジュアル">
+                <img src="./assets/images/kv-sp.jpg" class="w-100 d-md-none" alt="Beauty Fizzy キービジュアル">
+            </div>
+            <section class="py-6">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-5 order-md-1 stack-1 pl-4 pl-md-0 mb-n6 mb-md-0">
+                            <div class="ml-md-n8 pr-md-6">
+                                <img src="./assets/images/woman1.jpg" class="" alt="Beauty Fizzy 女性 ヨガ">
+                        </div>
+                        <div class="ml-auto mt-md-n7 d-none d-md-block">
+                            <img src="./assets/images/woman2-bubble.png" class="" alt="Beauty Fizzy 女性 外出中">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-md-0">
+                        <div class="bg-light p-4 pt-7 p-md-5 mt-md-7">
+                            <p class="display-4 font-weight-bold mb-4">明日のわたしへ<br>少しのケア</p>
+                            <div class="row">
+                                <div class="col-8 col-md-6">
+                                    <p class="mb-4">オフィスや<br>通勤中</p>
+                                    <p class="mb-4">読書したり<br>ショッピング中も</p>
+                                    <p class="mb-4">いつでも<br>どこでも<br>食べるだけで<br>ビューティーケアタイム</p>
+                                    <p class="mb-4">時間や場所を<br>気にせず楽しめる<br>ひとつぶ美容タブレット</p>
+                                    <img src="./assets/images/bf-tablet.png" class="w-100px" alt="Beauty Fizzy タブレット">
+                                </div>
+                                <div class="col-4 col-md-6 px-0 pr-md-8">
+                                    <img src="./assets/images/bf-image1.png" class="w-100" alt="Beauty Fizzy イラスト">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-5">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/bf-group1.png" class="w-100" alt="Beauty Fizzy 商品一覧">
+                        </div>
+                        <div class="col-12 col-md-6 pl-6 pl-md-0">
+                            <p class="mb-md-5">
+                                <img src="./assets/images/bf-logo.png" class="w-200px" alt="Beauty Fizzy ロゴ">
+                            </p>
+                            <p class="lh-xl">Beauty Fizzyは、のどの潤いをキープしながら、簡単ビューティーケアできるタブレット型サプリメントです。<br>1日1粒を目安に口の中で溶かしてお召し上がりください。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="py-6">
+                <div class="container">
+                    <h2 class="h2 text-center font-weight-bold mb-4">私の毎日を彩る4つの味</h2>
+                    <div class="row mb-6">
+                        <div class="col-6 col-md-3 my-3 border-right">
+                            <a href="#berry" class="d-block text-center text-danger">
+                                <p class="text-sm">うるおいを感じたい私</p>
+                                <span class="bg-danger rounded-pill text-white p-2 px-md-4 text-sm">ビューティーベリー</span>
+                                <span class="d-block mt-2"><i class="fas fa-chevron-down text-danger"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3 my-3 border-right">
+                            <a href="#pineapple" class="d-block text-center text-warning">
+                                <p class="text-sm">かっこいいをめざす私</p>
+                                <span class="bg-warning rounded-pill text-white p-2 px-md-4 text-sm">パイン＆マンゴー</span>
+                                <span class="d-block mt-2"><i class="fas fa-chevron-down text-warning"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3 my-3 border-right">
+                            <a href="#peach" class="d-block text-center text-success">
+                                <p class="text-sm">刺激に負けたくない私</p>
+                                <span class="bg-success rounded-pill text-white p-2 px-md-4 text-sm">センシティブピーチ</span>
+                                <span class="d-block mt-2"><i class="fas fa-chevron-down text-success"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-3 my-3">
+                            <a href="#muscat" class="d-block text-center text-info">
+                                <p class="text-sm">明日も健康的な私</p>
+                                <span class="bg-info rounded-pill text-white p-2 px-md-4 text-sm">ウィルマスカット</span>
+                                <span class="d-block mt-2"><i class="fas fa-chevron-down text-info"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="berry" class="row py-5">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/strawberry-pc.png" class="w-100" alt="ビューティーベリー">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-danger">感想知らずな肌を目指すすきま時間に保湿ケア</p>
+                            <h3 class="h3 mb-4">ビューティーベリー</h3>
+                            <p>
+                                <span class="badge badge-outlined badge-danger">#美白</span>
+                                <span class="badge badge-outlined badge-danger ml-2">#保湿</span>
+                            </p>
+                            <p class="text-danger mb-4">7粒入り 734円（税込）</p>
+                            <div class="row no-gutters align-items-center mb-5">
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-danger-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-danger text-sm mb-2">イチゴ<br>ポリフェノール</p>
+                                            <p class="text-xxs mb-0">メラニン抑制と<br>美白効果が期待</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center">
+                                    <span class="display-4 text-secondary">×</span>
+                                </div>
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-danger-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-danger text-sm mb-2">お米由来<br>セラミド</p>
+                                            <p class="text-xxs mb-0">肌のバリア機能と<br>保湿効果が期待</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 border-top border-bottom">
+                                <div class="accordion-box">
+                                    <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-item-1">その他配合素材</div>
+                                    <div id="collapse-item-1" class="collapse accordion-item">
+                                        <p class="pb-2">アスタキサンチン、プロポリス抽出物、ビタミンA・C・E</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-7">
+                                    <a href="#" class="btn btn-danger w-100 py-2 py-md-3 shadow font-weight-bold">詳しく見る
+                                        <i class="fas fa-chevron-circle-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pineapple" class="row py-5 flex-row-reverse">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/pineapple-pc.png" class="w-100" alt="ボディバランスパイン＆マンゴー">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-warning">いつまでもキレイでいたいすきま時間にスタイルアップ</p>
+                            <h3 class="h3 mb-4">ボディバランスパイン＆マンゴー</h3>
+                            <p>
+                                <span class="badge badge-outlined badge-warning">#ひきしめ</span>
+                                <span class="badge badge-outlined badge-warning ml-2">#燃焼</span>
+                            </p>
+                            <p class="text-warning mb-4">7粒入り 734円（税込）</p>
+                            <div class="row no-gutters align-items-center mb-5">
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-warning-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-warning text-sm mb-2">ブラック<br>ジンジャー</p>
+                                            <p class="text-xxs mb-0">基礎代謝を上げ、<br>脂肪燃焼をサポート</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center">
+                                    <span class="display-4 text-secondary">×</span>
+                                </div>
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-warning-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-warning text-sm mb-2">L-カルニチン</p>
+                                            <p class="text-xxs mb-0">脂肪燃焼を<br>サポート</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 border-top border-bottom">
+                                <div class="accordion-box">
+                                    <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-item-2">その他配合素材</div>
+                                    <div id="collapse-item-2" class="collapse accordion-item">
+                                        <p class="pb-2">キトサン、コエンザイムQ10、サラシアエキス、茶抽出物、プロポリス抽出物、ビタミンB1,B2,B6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-7">
+                                    <a href="#" class="btn btn-warning text-white w-100 py-2 py-md-3 shadow font-weight-bold">詳しく見る
+                                        <i class="fas fa-chevron-circle-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="peach" class="row py-5">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/peach-pc.png" class="w-100" alt="センシティブピーチ">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-success">外の刺激に負けない強い私に<br>すきま時間にセンシティブケア</p>
+                            <h3 class="h3 mb-4">センシティブピーチ</h3>
+                            <p>
+                                <span class="badge badge-outlined badge-success">#口臭</span>
+                                <span class="badge badge-outlined badge-success ml-2">#アレルギー</span>
+                            </p>
+                            <p class="text-success mb-4">7粒入り 734円（税込）</p>
+                            <div class="row no-gutters align-items-center mb-5">
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-success-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-success text-sm mb-2">シャンピニオン<br>エキス</p>
+                                            <p class="text-xxs mb-0">メラニン抑制と<br>美白効果が期待</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center">
+                                    <span class="display-4 text-secondary">×</span>
+                                </div>
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-success-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-success text-sm mb-2">じゃぱら<br>果皮抽出物</p>
+                                            <p class="text-xxs mb-0">花粉症やアトピー性<br>皮膚炎の抑制素材<br>として注目</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 border-top border-bottom">
+                                <div class="accordion-box">
+                                    <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-item-3">その他配合素材</div>
+                                    <div id="collapse-item-3" class="collapse accordion-item">
+                                        <p class="pb-2">アスタキサンチン、プロポリス抽出物、ビタミンA・C・E</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-7">
+                                    <a href="#" class="btn btn-success text-white w-100 py-2 py-md-3 shadow font-weight-bold">詳しく見る
+                                        <i class="fas fa-chevron-circle-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="muscat" class="row py-5 flex-row-reverse">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/muscat-pc.png" class="w-100" alt="ウィルマスカット">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-info">健康的な毎日に隙間時間に腸活ケア</p>
+                            <h3 class="h3 mb-4">ウィルマスカット</h3>
+                            <p>
+                                <span class="badge badge-outlined badge-info">#免疫</span>
+                                <span class="badge badge-outlined badge-info ml-2">#バリア</span>
+                            </p>
+                            <p class="text-info mb-4">7粒入り 734円（税込）</p>
+                            <div class="row no-gutters align-items-center mb-5">
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-info-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-info text-sm mb-2">シールド乳酸菌®<br>M - 1</p>
+                                            <p class="text-xxs mb-0">腸内環境を整え、<br>免疫向上が期待</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-center">
+                                    <span class="display-4 text-secondary">×</span>
+                                </div>
+                                <div class="col-5">
+                                    <div class="rounded-circle w-130px h-130px mx-auto bg-info-lighten d-flex align-items-center">
+                                        <div class="w-100 text-center">
+                                            <p class="text-info text-sm mb-2">柿渋抽出物</p>
+                                            <p class="text-xxs mb-0">ウイルス予防<br>効果が期待</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-5 border-top border-bottom">
+                                <div class="accordion-box">
+                                    <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-accordion-1">その他配合素材</div>
+                                    <div id="collapse-accordion-1" class="collapse accordion-item">
+                                        <p class="pb-2">アスタキサンチン、プロポリス抽出物、ビタミンA・C・E</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-7">
+                                    <a href="#" class="btn btn-info w-100 py-2 py-md-3 shadow font-weight-bold">詳しく見る
+                                        <i class="fas fa-chevron-circle-right ml-2"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="faq" class="bg-light py-6">
+                <div class="container">
+                    <h2 class="h2 mb-4">よくあるご質問</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-1">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-1" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-2">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-2" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-3">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-3" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-4">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-4" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-5">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-5" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-6">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-6" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="accordion-box border-bottom">
+                                <div class="py-4 font-weight-bold accordion-title" data-toggle="collapse" data-target="#collapse-faq-7">どうやって食べればいいですか？</div>
+                                <div id="collapse-faq-7" class="collapse accordion-item">
+                                    <p class="pb-2 text-sm">
+                                        タブレットタイプなので、ゆっくり口の中で溶かしてお召し上がりください。噛むとより炭酸を強く感じむせる場合があるのでご注意下さい。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="py-3 bg-dark text-xs text-white text-center" id="wrapper-footer">
+            <div class="container">©2021teatricoinc. All rights reserved.</div>
+        </footer>
+    </div><!-- #index-wrapper -->
+    </body>
 </html>
