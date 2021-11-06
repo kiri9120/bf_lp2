@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/kiri9120/bf_lp2#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
   }
 }
