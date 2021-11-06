@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kiri9120/bf_lp2/issues"
   },
-  "homepage": "https://github.com/kiri9120/bf_lp2#readme"
+  "homepage": "https://github.com/kiri9120/bf_lp2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
