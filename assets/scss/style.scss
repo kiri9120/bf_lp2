@@ -60,6 +60,21 @@
     line-height: 2.5;
 }
 
+.border-bottom-md-none {
+    @include media-breakpoint-up(md) {
+        border-bottom-width: 0 !important;
+    }
+}
+.border-right-md-block {
+    border-right-width: 0 !important;
+
+    @include media-breakpoint-up(md) {
+        border-right-width: 1px !important;
+    }
+}
+
+
+
 .bg-success-lighten {
     background-color: $success-lighten;
 }
