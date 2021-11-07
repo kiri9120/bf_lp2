@@ -130,6 +130,14 @@
     }
 }
 
+// vertical line
+.vertical-line {
+    margin: 0 auto;
+    width: 1px;
+    height: 80px;
+    background: $gray-300;
+}
+
 // accordion
 .accordion-title {
     cursor: pointer;
