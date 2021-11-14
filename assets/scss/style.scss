@@ -219,6 +219,7 @@ body {
     box-sizing: border-box;
     z-index: 2;
     margin-top: 72px;
+    -webkit-transition: .3s;
     transition: .3s;
 
     @include media-breakpoint-up(md) {
