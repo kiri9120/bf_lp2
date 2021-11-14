@@ -1,3 +1,4 @@
+// scroll link
 $(function(){
     var headerHeight = 70;
     $('a[href^="#"]').click(function(){
@@ -10,18 +11,15 @@ $(function(){
     });
 });
 
-
-
+// navbar
 $(function() {
   $('.btn-gNav').on("click", function(){
-
     $(this).toggleClass('open');
     $('#gNav').toggleClass('open');
   });
 
 });
 
-// メニューをクリックされたら、非表示にする
 $(function() {
   $('.gNav-menu li a').on("click", function(){
     $('.btn-gNav').removeClass('open');
