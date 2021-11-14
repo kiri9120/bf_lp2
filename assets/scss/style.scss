@@ -1,12 +1,5 @@
 @import "bootstrap-custom";
 
-.sp-only {
-    display: block;
-
-    @include media-breakpoint-up(md) {
-        display: none;
-    }
-}
 
 body {
     letter-spacing: .1rem;
