@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- $font-family-base:     "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+ $font-family-base:     'Lato', 'Noto Sans JP', "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 
  $secondary:     #dbdbdb;
  $success:       #f1949d;
@@ -15,12 +15,12 @@
  $light:         #F4F6F6;
  $dark:          #2E2A29;
 
-$success-lighten: #ffecee;
-$info-lighten: #f5ffe9;
-$warning-lighten: #fff9ed;
-$danger-lighten: #fbdddb;
+ $success-lighten: #ffecee;
+ $info-lighten: #f5ffe9;
+ $warning-lighten: #fff9ed;
+ $danger-lighten: #fbdddb;
 
-$body-color:                #2E2A29;
+ $body-color:                #2E2A29;
 
 
  $navbar-padding-y:                  1rem;
@@ -29,6 +29,7 @@ $body-color:                #2E2A29;
  $navbar-light-color:                #2E2A29;
  $navbar-light-hover-color:          $danger;
 
+ $h2-font-size:                $font-size-base * 1.5;
 
  $display1-size:               4rem;
  $display2-size:               3rem;
