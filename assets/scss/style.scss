@@ -2,7 +2,12 @@
 
 
 body {
+    font-size: $font-size-sm;
     letter-spacing: .1rem;
+
+    @include media-breakpoint-up(md) {
+        font-size: $font-size-base;
+    }
 }
 
 .letter-spacing-md {
