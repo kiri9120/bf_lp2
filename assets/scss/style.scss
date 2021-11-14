@@ -271,17 +271,20 @@ body {
     padding-right: 2rem;
 
     &:after {
-        font-family: "Font Awesome 5 Free";
-        content: "\f067";
+        content: "";
+        display: inline-block;
+        background-image: url(../assets/images/icon-plus.png);
+        background-size: cover;
+        width: 13px;
+        height: 13px;
         position: absolute;
         top: 50%;
         right: 10px;
         transform: translateY(-50%);
-        color: $secondary;
-    }
+        -webkit-transform: translateY(-50%);
+}
     &[aria-expanded="true"]:after {
-        content: "\f068";
-        font-family: "Font Awesome 5 Free";
-        color: $secondary;
+        height: 1px;
+        background-image: url(../assets/images/icon-minus.png);
     }
 }
