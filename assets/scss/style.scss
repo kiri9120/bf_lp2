@@ -67,6 +67,11 @@ body {
 .lh-xl {
     line-height: 2.5;
 }
+.lh-md-xl {
+    @include media-breakpoint-up(md) {
+        line-height: 2.5;
+    }
+}
 
 .border-bottom-md-none {
     @include media-breakpoint-up(md) {
@@ -98,6 +103,11 @@ body {
 
 .bg-light-gradation {
     background: linear-gradient(rgba(244,246,246,1),rgba(244,246,246,0.1));
+}
+
+.btn-outline-dark:hover {
+    color: $dark;
+    background-color: rgba(46, 42, 41, 0.5);
 }
 
 // badge
