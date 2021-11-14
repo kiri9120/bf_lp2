@@ -217,8 +217,8 @@ body {
     box-sizing: border-box;
     z-index: 2;
     margin-top: 72px;
-    -webkit-transition: .3s;
-    transition: .3s;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: all 400ms;
 
     @include media-breakpoint-up(md) {
         position: static;
