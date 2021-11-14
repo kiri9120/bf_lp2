@@ -236,6 +236,7 @@ body {
     @include media-breakpoint-up(md) {
         position: static;
         margin-top: 0;
+        width: auto;
         background: transparent;
     }
 
@@ -251,7 +252,7 @@ body {
 
     @include media-breakpoint-up(md) {
         flex-direction: row;
-        padding-top: 0;
+        padding: 0;
         justify-content: end;
         text-align: center;
     }
