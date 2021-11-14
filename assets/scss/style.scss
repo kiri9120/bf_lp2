@@ -96,6 +96,10 @@ body {
     background-color: $danger-lighten;
 }
 
+.bg-light-gradation {
+    background: linear-gradient(rgba(244,246,246,1),rgba(244,246,246,0.1));
+}
+
 // badge
 .badge.badge-outlined {
     background-color: transparent;
