@@ -127,9 +127,29 @@ body {
     background: linear-gradient(rgba(244,246,246,1),rgba(244,246,246,0.1));
 }
 
-.btn-outline-dark:hover {
-    color: $dark;
-    background-color: rgba(46, 42, 41, 0.5);
+.btn-icon-cart {
+    position: relative;
+    padding: 0.5rem 4rem 0.5rem 2rem;
+    padding-right: 3rem;
+
+    &:after {
+        content: "";
+        background-image: url(../assets/images/icon-cart-black.png);
+        display: inline-block;
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 50%;
+        right: 24px;
+        transition: .3s;
+        -webkit-transition: .3s;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+    &:hover:after {
+        background-image: url(../assets/images/icon-cart-white.png);
+    }
 }
 
 // badge
