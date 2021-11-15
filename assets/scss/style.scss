@@ -108,7 +108,9 @@ body {
     }
 }
 
-
+.nav-link:hover {
+    color: $dark-lighten;
+}
 
 .bg-success-lighten {
     background-color: $success-lighten;
