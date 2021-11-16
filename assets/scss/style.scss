@@ -83,6 +83,11 @@ body {
         font-size: 1.125rem;
     }
 }
+.text-lg-xl {
+    @include media-breakpoint-up(lg) {
+        font-size: 1.25rem;
+    }
+}
 
 .lh-xs {
     line-height: 1.2;
